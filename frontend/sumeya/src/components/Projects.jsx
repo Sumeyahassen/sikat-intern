@@ -1,20 +1,24 @@
 import { motion } from 'framer-motion';
 import ProjectCard from './ProjectCard';
-import lider from '../assets/images/ethiopian-leaders.png';
+import bdu from '../assets/images/bdu.png';
+import ethiopia from '../assets/images/ethiopia.png';
+import derash from '../assets/images/derash.png';
+import kuraz from '../assets/images/kuraz.png';
+import admin from '../assets/images/admin.png';
 const mobileProjects = [
   {
     title: "Ethiopian Leaders App",
     description: "A beautiful Flutter mobile app showcasing Ethiopian leaders with detailed biographies, images, and achievements.",
     techStack: ["Flutter", "Dart", "SQLite"],
-    image: {lider},  // Replace with your screenshot
+    image: ethiopia,  // Replace with your screenshot
     liveLink: "",  // e.g., Play Store link or APK
     githubLink: "https://github.com/yourusername/ethiopian-leaders",
   },
   {
-    title: "Ramadan Nasheeds Player",
+    title: "Yecampase hub",
     description: "Flutter app for playing Islamic nasheeds and anasheed during Ramadan with offline support and beautiful UI.",
-    techStack: ["Flutter", "Provider", "Audio Players"],
-    image: "/images/ramadan-nasheeds.jpg",
+    techStack: ["Flutter", "Nodejs", "Docker"],
+    image: bdu,
     liveLink: "",
     githubLink: "https://github.com/yourusername/ramadan-nasheeds",
   },
@@ -22,7 +26,7 @@ const mobileProjects = [
     title: "Personal Diary App",
     description: "Secure and private diary mobile application built with Flutter and local encrypted storage.",
     techStack: ["Flutter", "SQLite", "Hive"],
-    image: "/images/diary-app.jpg",
+    image: derash,
     liveLink: "",
     githubLink: "https://github.com/yourusername/diary-app",
   },
@@ -34,7 +38,7 @@ const webBackendProjects = [
     title: "Todo REST API",
     description: "Full-featured RESTful backend API for task management using Node.js, Express, and database integration.",
     techStack: ["Node.js", "Express.js", "PostgreSQL", "SQLite", "JWT"],
-    image: "/images/todo-api.jpg",
+    image: kuraz,
     liveLink: "",  // If deployed (e.g., Render, Vercel)
     githubLink: "https://github.com/yourusername/todo-api",
   },
@@ -50,7 +54,7 @@ const webBackendProjects = [
     title: "This Portfolio Website",
     description: "Modern responsive portfolio built with React, Vite, Tailwind CSS, and smooth animations.",
     techStack: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
-    image: "/images/portfolio.jpg",  // Screenshot of your own site!
+    image:admin,  // Screenshot of your own site!
     liveLink: "https://your-portfolio-link.com",  // The live URL after deployment
     githubLink: "https://github.com/yourusername/portfolio",
   },

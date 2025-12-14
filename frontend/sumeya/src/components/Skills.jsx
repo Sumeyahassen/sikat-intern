@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { SiReact, SiJavascript, SiTailwindcss, SiNodedotjs, SiGit, SiHtml5, SiCss3, SiMongodb, SiFirebase ,SiFlutter,      // New: Flutter icon
   SiPython,
-  SiPostgresql,SiExpress, SiSqlite} from 'react-icons/si';
+  SiPostgresql,SiExpress, SiSqlite,SiDocker} from 'react-icons/si';
 
 const skills = [
   { name: 'React', level: 90, icon: <SiReact className="text-4xl text-cyan-500" /> },
@@ -18,6 +18,7 @@ const skills = [
   { name: 'Git & GitHub', level: 85, icon: <SiGit className="text-4xl text-orange-600" /> },
   { name: 'HTML5', level: 95, icon: <SiHtml5 className="text-4xl text-orange-500" /> },
   { name: 'CSS3', level: 90, icon: <SiCss3 className="text-4xl text-blue-600" /> },
+  { name: 'Docker', level: 85, icon: <SiDocker className="text-4xl text-blue-600" /> },
 ];
 
 const Skills = () => {

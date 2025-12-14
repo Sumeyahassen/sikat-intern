@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-
+import about from '../assets/images/about.png';
 const About = () => {
   return (
     <section id="about" className="py-20 bg-white dark:bg-gray-900">
@@ -26,7 +26,7 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <p className="text-lg text-gray-700 leading-relaxed mb-6 dark:text-white">
-              I'm a passionate full-stack developer with a love for creating clean, efficient, and beautiful web applications.
+              I'm a passionate full-stack & mobile app developer with a love for creating clean, efficient, and beautiful web applications.
               I enjoy turning ideas into reality using modern technologies like React, Node.js, and Tailwind CSS.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6 dark:text-white">
@@ -48,7 +48,7 @@ const About = () => {
             className="text-center"
           >
             <img
-              src="/images/about-me.jpg"  // Optional: add a second photo (e.g., working at desk)
+              src={about}  // Optional: add a second photo (e.g., working at desk)
               alt="About Me"
               className="rounded-lg shadow-2xl mx-auto max-w-full h-auto"
             />
