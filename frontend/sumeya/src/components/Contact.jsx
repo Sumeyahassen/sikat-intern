@@ -51,13 +51,13 @@ const Contact = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 dark:text-white">
             Get In Touch
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-start">
+        <div className="grid md:grid-cols-2 gap-12 items-start dark:text-white">
           {/* Left: Contact Info + Social */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -65,22 +65,22 @@ const Contact = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h3 className="text-2xl font-semibold text-gray-800 mb-6">
+            <h3 className="text-2xl font-semibold text-gray-800 mb-6 dark:text-white">
               Let's Connect!
             </h3>
-            <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+            <p className="text-lg text-gray-700 mb-8 leading-relaxed dark:text-white">
               I'm excited to hear from you! Whether it's about a project, job opportunity,
               or just saying hi — drop me a message.
             </p>
 
             <div className="mb-10">
-              <p className="text-gray-600 mb-2">Email:</p>
-              <a href="mailto:youremail@example.com" className="text-xl font-medium text-blue-600 hover:underline">
+              <p className="text-gray-600 mb-2 dark:text-white">Email:</p>
+              <a href="mailto:youremail@example.com" className="text-xl font-medium text-blue-600 hover:underline dark:text-white">
                sumeyahassenfile@gmail.com
               </a>
             </div>
 
-            <SocialLinks />
+            <SocialLinks  />
           </motion.div>
 
           {/* Right: Interactive Form */}

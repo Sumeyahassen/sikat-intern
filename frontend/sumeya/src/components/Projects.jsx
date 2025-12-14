@@ -68,14 +68,14 @@ const Projects = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 dark:text-white">
             My Projects
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
         </motion.div>
 
         {/* Mobile Apps Section */}
-        <h3 className="text-3xl font-bold text-gray-800 mb-10 text-center">
+        <h3 className="text-3xl font-bold text-gray-800 mb-10 text-center dark:text-white">
           Mobile Applications (Flutter)
         </h3>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mb-20">
@@ -93,7 +93,7 @@ const Projects = () => {
         </div>
 
         {/* Web & Backend Section */}
-        <h3 className="text-3xl font-bold text-gray-800 mb-10 text-center">
+        <h3 className="text-3xl font-bold text-gray-800 mb-10 text-center dark:text-white">
           Web & Backend Projects
         </h3>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">

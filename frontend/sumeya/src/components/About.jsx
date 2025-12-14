@@ -11,7 +11,7 @@ const About = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 dark:text-white">
             About Me
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
@@ -25,15 +25,15 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <p className="text-lg text-gray-700 leading-relaxed mb-6 dark:text-white">
               I'm a passionate full-stack developer with a love for creating clean, efficient, and beautiful web applications.
               I enjoy turning ideas into reality using modern technologies like React, Node.js, and Tailwind CSS.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <p className="text-lg text-gray-700 leading-relaxed mb-6 dark:text-white">
               When I'm not coding, you can find me exploring new tech, contributing to open-source projects, reading books,
               or enjoying outdoor activities.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-lg text-gray-700 leading-relaxed dark:text-white">
               I'm always excited to work on new challenges and collaborate with creative people.
               Let's build something amazing together!
             </p>
