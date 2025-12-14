@@ -5,6 +5,7 @@ import ethiopia from '../assets/images/ethiopia.png';
 import derash from '../assets/images/derash.png';
 import kuraz from '../assets/images/kuraz.png';
 import admin from '../assets/images/admin.png';
+import me from '../assets/images/me.png';
 const mobileProjects = [
   {
     title: "Ethiopian Leaders App",
@@ -12,7 +13,7 @@ const mobileProjects = [
     techStack: ["Flutter", "Dart", "SQLite"],
     image: ethiopia,  // Replace with your screenshot
     liveLink: "",  // e.g., Play Store link or APK
-    githubLink: "https://github.com/yourusername/ethiopian-leaders",
+    githubLink: "https://github.com/Sumeyahassen/ye_ethiopia_meriwoch",
   },
   {
     title: "Yecampase hub",
@@ -20,7 +21,7 @@ const mobileProjects = [
     techStack: ["Flutter", "Nodejs", "Docker"],
     image: bdu,
     liveLink: "",
-    githubLink: "https://github.com/yourusername/ramadan-nasheeds",
+    githubLink: "https://github.com/Sumeyahassen/BDU-SUPPORT-APP",
   },
   {
     title: "Personal Diary App",
@@ -28,35 +29,35 @@ const mobileProjects = [
     techStack: ["Flutter", "SQLite", "Hive"],
     image: derash,
     liveLink: "",
-    githubLink: "https://github.com/yourusername/diary-app",
+    githubLink: "https://github.com/Sumeyahassen/Deras_app",
   },
   // Add more Flutter/mobile projects here
 ];
 
 const webBackendProjects = [
   {
-    title: "Todo REST API",
+    title: "Chat app web",
     description: "Full-featured RESTful backend API for task management using Node.js, Express, and database integration.",
     techStack: ["Node.js", "Express.js", "PostgreSQL", "SQLite", "JWT"],
     image: kuraz,
     liveLink: "",  // If deployed (e.g., Render, Vercel)
-    githubLink: "https://github.com/yourusername/todo-api",
+    githubLink: "https://github.com/Sumeyahassen/chat-app",
   },
   {
     title: "This Portfolio Website",
     description: "Modern responsive portfolio built with React, Vite, Tailwind CSS, and smooth animations.",
     techStack: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
-    image: "/images/portfolio.jpg",  // Screenshot of your own site!
+    image: me,  // Screenshot of your own site!
     liveLink: "https://your-portfolio-link.com",  // The live URL after deployment
-    githubLink: "https://github.com/yourusername/portfolio",
+    githubLink: "https://github.com/Sumeyahassen/chat-app",
   },
    {
-    title: "This Portfolio Website",
+    title: "Random Chat app",
     description: "Modern responsive portfolio built with React, Vite, Tailwind CSS, and smooth animations.",
-    techStack: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
+    techStack: ["React", "Tailwind CSS", "Figma", "Vite"],
     image:admin,  // Screenshot of your own site!
     liveLink: "https://your-portfolio-link.com",  // The live URL after deployment
-    githubLink: "https://github.com/yourusername/portfolio",
+    githubLink: "https://github.com/Hybrid-team-2/web_chatapp",
   },
   // Add more web/backend projects here
 ];
