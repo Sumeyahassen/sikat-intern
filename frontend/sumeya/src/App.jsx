@@ -6,18 +6,23 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+
 function App() {
   return (
-    <>
-      <Header />
+<>
+  <Header />
       <Hero />
       <About />
       <Skills/>
       <Projects/>
       <Contact/>
       <Footer/>
-      {/* Next: Skills, Projects, etc. */}
-    </>
+       {/* Next: Skills, Projects, etc. */}
+</>
+
+
+
+
   );
 }
 
